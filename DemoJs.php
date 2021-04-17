@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Plugins\DemoCss;
+namespace Plugins\DemoJs;
 
 use Phyxo\Extension\AbstractPlugin;
 use Symfony\Component\HttpKernel\KernelEvents;
