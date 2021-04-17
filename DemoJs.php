@@ -25,6 +25,6 @@ class DemoJs extends AbstractPlugin
 
     public function addAssets()
     {
-        $this->addPluginJs('DemoJs', 'js/demo.js');
+        $this->addPluginScript('DemoJs', 'js/demo.js');
     }
 }
