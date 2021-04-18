@@ -1,4 +1,4 @@
-const ready = (callback) => {
+const demoJsReady = (callback) => {
     if (document.readyState != 'loading') {
 	callback()
     } else {
@@ -6,6 +6,6 @@ const ready = (callback) => {
     }
 }
 
-ready(() => {
+demoJsReady(() => {
     console.log('Demo Js loaded');
 });
